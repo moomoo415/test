@@ -1,0 +1,21 @@
+git 버전 확인
+git --version
+# 2.50.1
+
+프로젝트 디렉토리에 로컬 저장소 생성
+git init
+# Initialized empty Git repository in /Users/jasper_k/Desktop/Moomoo/git/.git/ 
+# 로컬저장소를 생성했다는 뜻 (command + shift + .) 하면 숨김 [.git] 파일이 생긴 것을 알 수 있다.
+
+git 버전 관리할 파일을 선택 : state에 올림
+git add test.py
+
+버전 만들기 : 커밋
+git commit -m "test.py를 커밋"
+
+# 깃에 이메일 및 이름 저장 ( ㅂ면경시에도 동일하게쓸 수 있다.)
+git config --global user.email "이메일주소"
+git config --global user.name "이름"
+
+로그 확인
+git log
