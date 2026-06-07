@@ -39,3 +39,15 @@ Fork
 하나의 저장소를 다른 계정으로 복사
 git 명령어가 아님(github 기능)
 > 다른 사람의 github 계정 저장소에서 fork를 눌러 내 계정 저장소로 복사
+
+원격 저장소에서 변경된 사항을 가졍괴
+git pull origin(가져와서 merge)
+git fetch origin(가져오기만)
+
+
+.gitignore
+git이 추적하지 않아야 할 파일을 지정하는 파일
+예)
+파일이름.확장명
+*.확장명
+폴더명/
